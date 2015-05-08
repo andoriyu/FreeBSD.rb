@@ -8,13 +8,9 @@ module RbFreeBSD::Native::LibC
     def self.get_time(clock_id)
       time_ptr = FFI::MemoryPointer.new(RbFreeBSD::Native::LibC::TimeSpec.size)
       time = RbFreeBSD::Native::LibC::TimeSpec.new(time_ptr)
-      unless RbFreeBSD::Native::LibC.clock_gettime(clock_id, time_ptr) == 0
-        raise
-      else
-        uptime = time[:tv_sec]
-        time_ptr.free
-        return uptime
-      end
+      uptime = RbFreeBSD::Native::LibC.clock_gettime(clock_id, time_ptr) == 0 ? time[:tv_sec] : -1
+      time_ptr.free
+      return uptime
     end
   end
 end
