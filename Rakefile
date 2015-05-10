@@ -1,5 +1,4 @@
 require "bundler/gem_tasks"
-
 begin
   require 'rspec/core/rake_task'
   RSpec::Core::RakeTask.new(:spec) do |t|
@@ -10,6 +9,6 @@ end
 
 
 task :console do
-  exec 'irb -r RbFreeBSD -I ./lib'
+  exec 'irb -r pp -r RbFreeBSD -I ./lib'
 end
 
