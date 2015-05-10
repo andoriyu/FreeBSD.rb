@@ -27,7 +27,6 @@ module RbFreeBSD::Open3
 
       private
       def datasets_from_output(lines)
-        puts lines
         lines.collect do |e|
           path = e.chomp
           split = path.split('/')
