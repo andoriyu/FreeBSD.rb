@@ -9,6 +9,6 @@ end
 
 
 task :console do
-  exec 'irb -r pp -r RbFreeBSD -I ./lib'
+  exec 'irb -r awesome_print -r RbFreeBSD -I ./lib'
 end
 
