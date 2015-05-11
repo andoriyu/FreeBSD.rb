@@ -1,7 +1,6 @@
-# RbFreeBSD
-
-TODO: Write a gem description
-
+![RsFreeBSD](logo.png)
+[![Code Climate](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/gpa.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD)
+[![Test Coverage](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/coverage.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD/coverage)
 ## Installation
 
 Add this line to your application's Gemfile:
