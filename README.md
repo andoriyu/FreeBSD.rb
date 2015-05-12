@@ -2,6 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/gpa.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD)
 [![Test Coverage](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/coverage.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD/coverage)
 [![Documentation](https://inch-ci.org/github/andoriyu/RbFreeBSD.svg?branch=master)](http://www.rubydoc.info/github/andoriyu/freebsd.rb/master)
+[![Dependency Status](https://gemnasium.com/andoriyu/FreeBSD.rb.svg)](https://gemnasium.com/andoriyu/FreeBSD.rb)
 ## Installation
 
 Add this line to your application's Gemfile:
