@@ -4,14 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'RbFreeBSD/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "RbFreeBSD"
+  spec.name          = "rbfreebsd"
   spec.version       = RbFreeBSD::VERSION
   spec.authors       = ["Andrey Cherkashin"]
   spec.email         = ["with.out@me.com"]
-  spec.summary       = %q{Write a short summary. Required.}
-  spec.description   = %q{Write a longer description. Optional.}
+  spec.summary       = %q{Ruby bingings and wrappers around freebsd libs}
 
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/andoriyu/FreeBSD.rb"
   spec.license       = "BSD"
 
   spec.files         = `git ls-files -z`.split("\x0")
