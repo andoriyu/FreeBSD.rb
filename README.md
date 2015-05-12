@@ -1,13 +1,13 @@
 ![RsFreeBSD](logo.png)
 [![Code Climate](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/gpa.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD)
 [![Test Coverage](https://codeclimate.com/github/andoriyu/RbFreeBSD/badges/coverage.svg)](https://codeclimate.com/github/andoriyu/RbFreeBSD/coverage)
-[![Documentation](https://inch-ci.org/github/andoriyu/RbFreeBSD.svg?branch=master)](http://www.rubydoc.info/github/andoriyu/RbFreeBSD/master)
+[![Documentation](https://inch-ci.org/github/andoriyu/RbFreeBSD.svg?branch=master)](http://www.rubydoc.info/github/andoriyu/freebsd.rb/master)
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'RbFreeBSD'
+gem 'rbfreebsd'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install RbFreeBSD
+    $ gem install rbfreebsd
 
 ## Usage
 
